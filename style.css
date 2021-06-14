@@ -4,14 +4,15 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(65, 211, 211);
+    background-color: rgb(235, 247, 247);
 }
 .container{
     margin: auto;
     background-color: aqua;
-    max-height: 600px;
+    max-height: 900px;
     margin-top: 20px;
-    max-width: 600px;
+    max-width: 400px;
+    border: 3px solid greenyellow;
 }
 
 h1{
@@ -23,7 +24,11 @@ p{
 }
 .formdiv{
     margin: 10px;
+    border: 2px solid blueviolet;
+    max-width: 350px;
+    border-radius: 8px;
 }
 .buttonun{
     margin-left: 50px;
+    margin-bottom: 50px;
 }
