@@ -8,11 +8,12 @@ body{
 }
 .container{
     margin: auto;
-    background-color: aqua;
-    max-height: 900px;
+    
+    max-height: 1000px;
     margin-top: 20px;
     max-width: 400px;
-    border: 3px solid greenyellow;
+    border: 3px solid bisque;
+    background-color: rgb(185, 195, 226)
 }
 
 h1{
@@ -24,11 +25,54 @@ p{
 }
 .formdiv{
     margin: 10px;
-    border: 2px solid blueviolet;
+    border: 3px solid rgb(86, 247, 86);
     max-width: 350px;
     border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 .buttonun{
-    margin-left: 50px;
-    margin-bottom: 50px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+    
 }
+.btn1{
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    background-color: rgb(86, 247, 86);
+}
+#name,
+#surname,
+#Email,
+#multic,
+#feature {
+    width: 200px;
+    height: 30px;
+    margin: 5px 0px 5px 10px;
+    background-color: rgb(86, 247, 86);
+
+}
+.labal{
+    /* display: inline-block; */
+    margin-left: 10px;
+}
+/* option{
+    /* display: inline-block; */
+    /* margin-left: 10px;
+} */ */
+.kay{
+    margin-left: 10px;
+}
+#radio4,
+#radio1,
+#radio2,
+#radio3,
+#check1,
+#check2,
+#check3,
+#check4,
+#yorum{
+    margin-left: 10px;
+}
+              
