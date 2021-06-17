@@ -1,0 +1,45 @@
+.head1{
+    color: purple;
+}
+.head2{
+    color: royalblue;
+}
+.head1{
+    color: seagreen;
+}
+
+
+span.a{
+    display: inline;
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+    border: 2px solid yellowgreen;
+    color: white;
+    background-color: purple;
+}
+span.b{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 2px solid yellow;
+    background-color: royalblue;
+}
+span.c{
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 3px solid orange;
+    background-color: seagreen;
+}
+span.d{
+    display: none;
+    /* visibility: hidden; konumunu  korumaya devam ediyor ama glzükmüyüor display none da tamamen kayboluyor */
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    border: 2px solid yellowgreen;
+    background-color: orange;
+}
