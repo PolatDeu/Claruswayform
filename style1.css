@@ -12,11 +12,15 @@ body{
 border-radius: 5px;
 background-color: rgb(73, 190, 145);
 cursor: pointer;
-​
-}
+​}
+
 label{
     font-family: 'Indie Flower', cursive;
 }
 #form-button:hover{
     background-color: red;
+}
+
+.td1{
+    width: 200px;
 }

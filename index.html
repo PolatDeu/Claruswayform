@@ -1,35 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>ClaruswayForm</title>
 </head>
+
 <body>
     <div class="container">
         <header>
             <h1>Clarusway Surwey Form</h1>
-            <p>Thank you for your taking the Time to help uns Improve the Platform</p>
+            <p>
+                Thank you for your taking the Time to help uns Improve the Platform
+            </p>
         </header>
         <section id="seccontainer">
             <div class="formcontainer">
-                <form action="result.html" method="GET" >
+                <form action="result.html" method="GET">
                     <div class="formdiv">
-                        <label class="labal" for="name">Name</label><br>
-                        <input type="text" id="name" name="Dein Name " placeholder="Enter your name">
+                        <table>
+                            <tr>
+                                <td class="kirma">
+                                    <label class="labal" for="name">Name</label>
+                                </td>
+                                <td class="td2">
+                                    <input type="text" id="name" name="Dein Name " placeholder="Enter your name" />
+                                </td>
+                            </tr>
+                        </table>
                     </div>
                     <div class="formdiv">
-                        <label class="labal" for="surname">Surname</label><br>
-                        <input type="text" id="surname" name="Dein Surname " placeholder="Enter your surname">
+                        <table>
+                            <tr>
+                                <td class="kirma">
+                                    <label class="labal" for="surname">Surname</label>
+                                </td>
+
+                                <td class="td2">
+                                    <input type="text" id="surname" name="Dein Surname "
+                                        placeholder="Enter your surname" />
+                                </td>
+                            </tr>
+                        </table>
                     </div>
                     <div class="formdiv">
-                        <label class="labal" for="Email">Email</label><br>
-                        <input type="email" id="Email" name="Deine E-Mail Adresse " placeholder="Enter your name">
+                        <table>
+                            <tr>
+                        
+                        <td class="kirma">
+                            <label class="labal" for="Email">Email</label>
+                        </td>
+                        <td class="td2">
+                            <input type="email" id="Email" name="Deine E-Mail Adresse " placeholder="Enter your name" />
+                        </td>
+
+                        </tr>
+                         </table>
                     </div>
                     <div class="formdiv">
-                        <label for="multic">Which Option Best describes your current role?</label><br>
+                        <label for="multic">Which Option Best describes your current role?</label><br />
                         <select name="Option " id="multic">
                             <option value="Aline">Aline Arbeiten</option>
                             <option value="Zusammen">Zusammen Arbeiten</option>
@@ -39,22 +71,23 @@
                         </select>
                     </div>
                     <div class="formdiv">
-                        <label for="">Would you recommend Clarusway to a friend?</label><br>
-                        <input class="kay" type="radio" name="Deine Wahl Freund zu sein" id="radio4" value="Naturlich, ja">
-                        
-                        <label class="Yeme" for="radio">Definitely, Yes</label><br>
-                        <input class="kay" type="radio" name="Deine Wahl Freund zu sein" id="radio1" value="Ja">
+                        <label for="">Would you recommend Clarusway to a friend?</label><br />
+                        <input class="kay" type="radio" name="Deine Wahl Freund zu sein" id="radio4"
+                            value="Naturlich, ja" />
+
+                        <label class="Yeme" for="radio">Definitely, Yes</label><br />
+                        <input class="kay" type="radio" name="Deine Wahl Freund zu sein" id="radio1" value="Ja" />
                         <label for="radio1">Yes</label>
-                        <br>
-                        <input class="kay" type="radio" name="Deine Wahl Freund zu sein" id="radio2" value="Nein">
+                        <br />
+                        <input class="kay" type="radio" name="Deine Wahl Freund zu sein" id="radio2" value="Nein" />
                         <label for="radio2">Nein</label>
-                        <br>
-                        <input class="kay" type="radio" name="Deine Wahl Freund zu sein" id="radio3" value="Auf keinen Fall">
+                        <br />
+                        <input class="kay" type="radio" name="Deine Wahl Freund zu sein" id="radio3"
+                            value="Auf keinen Fall" />
                         <label for="radio3">Auf keinen Fall</label>
-                        
                     </div>
                     <div class="formdiv">
-                        <label for="feature">What is your favourite feature of Clarusway?</label><br>
+                        <label for="feature">What is your favourite feature of Clarusway?</label><br />
                         <select name="Deine Favourite Feature" id="feature">
                             <option value="Html">Html</option>
                             <option value="Css">Css</option>
@@ -63,31 +96,31 @@
                         </select>
                     </div>
                     <div class="formdiv">
-                        <label for="">What would you like to see improved?</label><br>
-                        <input type="checkbox" name="Improved" id="check1" value="Front-end Projects">
-                        <label for="check1">Front-end Projects</label><br>
-                        <input type="checkbox" name="Improved" id="check2" value="Back-end Projects">
-                        <label for="check2">Back-end Projects</label><br>
-                        <input type="checkbox" name="Improved" id="check3" value="Data Science">
-                        <label for="check3">Data Science</label><br>
-                        <input type="checkbox" value="Additional Courses" name="Improved" id="check4">
+                        <label for="">What would you like to see improved?</label><br />
+                        <input type="checkbox" name="Improved" id="check1" value="Front-end Projects" />
+                        <label for="check1">Front-end Projects</label><br />
+                        <input type="checkbox" name="Improved" id="check2" value="Back-end Projects" />
+                        <label for="check2">Back-end Projects</label><br />
+                        <input type="checkbox" name="Improved" id="check3" value="Data Science" />
+                        <label for="check3">Data Science</label><br />
+                        <input type="checkbox" value="Additional Courses" name="Improved" id="check4" />
                         <label for="check4">Additional Courses</label>
                     </div>
                     <div class="formdiv">
-                        <label for="yorum">Any Comments or Suggestions?</label><br>
-                        <textarea name="Dein Commentar" id="yorum" cols="40" rows="5" placeholder="Enter your Comment here... Thanks for  your Comment" ></textarea>
+                        <label for="yorum">Any Comments or Suggestions?</label><br />
+                        <textarea name="Dein Commentar" id="yorum" cols="40" rows="5"
+                            placeholder="Enter your Comment here... Thanks for  your Comment"></textarea>
                         <!-- style="resize: none;" -->
                     </div>
 
-                    <br>
+                    <br />
                     <div class="buttonun">
-                    <input class="btn1" type="submit" value="Submit">
+                        <input class="btn1" type="submit" value="Submit" />
                     </div>
-
                 </form>
             </div>
         </section>
-
     </div>
 </body>
+
 </html>
