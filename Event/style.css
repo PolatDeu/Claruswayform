@@ -1,3 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    max-width: 1200px;
+    max-height: 800px;
+    margin: 150px 50px 50px 150px;
+}
 .ev1
 {
     width: 40%;
@@ -10,4 +19,8 @@
 .formcontainer1 {
     display: inline-block
 
+}
+#evname,
+#date{
+    width: 195px;
 }

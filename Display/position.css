@@ -2,7 +2,7 @@
     position: static;
     border: 3px solid teal;
 }
-.relativ{
+.relative{
     position: relative;
     border: 3px dotted cyan;
     top: 20px;
@@ -13,5 +13,9 @@
     border: 3px double greenyellow;
     left: 30px;
     top: 380ox;
+    
+}
+.absolute{
+    position: absolute;
     
 }
