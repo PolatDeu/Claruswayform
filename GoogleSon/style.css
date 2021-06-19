@@ -1,0 +1,198 @@
+.left{
+    float: left;
+    margin-top: 5px;
+}
+.right{
+    float: right;
+    margin-top: 0px;
+}
+.about,
+.store,
+.gmail,
+.images,
+.gruppe{
+    text-decoration: none;
+    color: black;
+    margin-left: 7px;
+    margin-right: 7px;
+    opacity: 0.5;
+    font-weight: bold;
+}
+.about:hover,
+.store:hover,
+.gmail:hover,
+.images:hover,
+.gruppe:hover{
+    text-decoration: underline;
+    opacity: 0.8;
+    font-weight: bold;
+}
+
+.sign{
+    height: 30px;
+    width: 70px;
+    border-radius: 2px;
+    background-color: #4285f4;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border: none;
+    margin-right: 10px;
+}
+.sign:hover{
+    height: 35px;
+}
+.alt{
+    width: 250px;
+    margin-top: 200px;
+    margin: auto;
+    position: relative;
+    padding-top: 100px;
+}
+.logom{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    
+}
+.gruppe{
+    position: relative;
+    
+    top: 10px;
+}
+
+.inp{
+    border: 1px solid gray;
+    border-radius: 20px;
+    height: 46px;
+    width: 610px;
+    background-color: honeydew;
+    opacity: 0.6;
+    position: relative;
+    margin: auto;
+}
+.inp:hover{
+    background-color: white;
+}
+.ara{
+    margin-top: 13px;
+    margin-left: 8px;
+    margin-bottom: 20px;
+}
+.mikro{
+    float: right;
+    margin: 12px 12px 0px 0px;
+    
+}
+.searchkutu{
+    width: 88%;
+    margin-left: 5px;
+    height: 40px;
+    position: relative;
+    bottom: 27px;
+    border: none;
+    background-color: honeydew;
+    cursor: text;
+    
+
+}
+.searchkutu:hover{
+    background-color: white;
+}
+.searchkutu:focus{
+    outline: 0px;
+}
+/* .buttons{
+    position: relative;
+    margin: auto;
+    width: 400px;
+    height: 45px;
+} */
+.btn{
+    text-decoration: none;
+    color: black;
+    margin-left: 7px;
+    margin-right: 7px;
+    opacity: 0.5;
+    font-weight: bold;
+    width: 140px;
+    height: 45px;
+    background-color: rgb(185, 180, 180);
+    position: relative;
+    top: 40px;
+    left: 530px;
+    padding: 10px;  
+}
+.btn:hover{
+    border: 1px solid gray;
+    
+}
+.sprache{
+    text-decoration: none;
+    color: blue;
+    margin-left: 7px;
+    opacity: 0.9;
+    font-weight: bold;   
+}
+.chose{
+    position: relative;
+    top: 70px;
+    left: 535px;
+    opacity: 0.8;
+}
+
+.footer-links{
+    text-decoration: none;
+    color: black;
+    margin-left: 42px;
+    margin-right: 22px;
+    opacity: 0.5;
+    font-weight: bold;
+    font-size: 18px;
+    
+    
+}
+.footer-links:hover{
+    text-decoration: underline;
+}
+.footer-links1{
+    text-decoration: none;
+    color: black;
+    margin-right: 22px;
+    opacity: 0.5;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.footer-links1:hover{
+    text-decoration: underline;
+}
+.country{
+    
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    font-size: 18px;
+    height: 50px;
+    position: relative;
+    top: 190px;
+    background-color: #e4e4e4;
+    padding-top: 10px;
+}
+.footer-right,
+.footer-left{
+    display: inline;    
+}
+.footer-right{
+    float: right
+}
+.birlik{
+    background-color: #e4e4e4;
+    height: 50px;
+    position: relative;
+    bottom: 0px;
+    top: 185px;
+    outline-style: 1px solid gray;
+    border-top: 1px solid gray;
+    opacity: 0.8;
+    padding-top: 10px;
+}
