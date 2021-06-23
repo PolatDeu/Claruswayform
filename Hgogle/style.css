@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: inline-flex;
+    align-items: center;
+    
+}
+.right{
+    justify-content: end;
+}
+.left{
+    justify-content: start;
+}
+.container1{
+    width: 200px;
+    margin: auto;
+}
+.searchbox{
+    display: inline-flex;
+}
