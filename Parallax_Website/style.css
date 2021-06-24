@@ -1,10 +1,12 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 body{
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    opacity: 0.7;
 }
 p{
     font-size: 6em;
@@ -14,12 +16,14 @@ p{
     padding: 1vh;
     width: 70vh;
     margin: auto;
-    margin-top: 50vh;
+    margin-top: 38vh;
 }
 .alk{
-    font-size: 5vh;
+    font-size: 4vh;
     background-color: white;
-    margin-top: 0vh 10vh 0vh 10vh;
+    margin: 0vh;
+    width: 100%;
+    
 }
 .image{
     width: 100%;
