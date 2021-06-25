@@ -1,0 +1,31 @@
+
+.navbar{
+    background-color: #555;
+    
+    width: 100%;
+    
+}
+.navbar a{
+    font-size: 18px;
+    padding: 15px 15px 15px 0px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+.home{
+    background-color: red;
+    
+}
+
+.navbar a:hover{
+    background-color: black;
+}
+/* .right{
+    float: right;
+    padding-top: 0px;
+} */
+.right{
+	position: absolute;
+  right: 20px;
+  top: 8px;
+}
