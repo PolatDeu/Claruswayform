@@ -33,6 +33,7 @@ body{
 }
 .seca{
     font-size: 4vh;
+    /* font-weight: bold; */
     background-color:white;
     margin: 0vh;
     width: 100%;
@@ -72,9 +73,9 @@ body{
     background-attachment: fixed;
     padding:0px;
 }
-.d{
+.letzte{
     background:url(./img/Image1.jpg) center/cover;
     background-attachment: fixed;
     padding:0px;
-
+    height: 138vh;
 }
