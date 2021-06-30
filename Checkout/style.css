@@ -1,0 +1,102 @@
+body{
+    font-family: montserrat;
+    text-align: center;
+}
+h2{
+    margin: auto;
+}
+.ana-container{
+    text-align: center;
+    justify-content: center;
+    opacity: 0.7;
+}
+.container-left{
+    text-align: left;
+    display: inline;
+}
+.container-right{
+    display: inline;
+}
+.input{
+    margin: 5px 0px;
+    border: 1px solid gainsboro;
+    max-width: 60vh;
+    height: 4.5vh;
+    border-radius: 8px;
+    justify-content: center;
+}
+.full{
+    height: 75%;
+    width: 80%;
+    border: none;
+    font-size: 2vh;
+    outline: 0;
+
+    
+}
+.full.option {
+    height: 75%;
+    width: 80%;
+    border: none;
+    font-size: 1.6vh;
+    outline: 0;
+    margin-left: 4vh;
+    position: relative;
+    bottom: 3.5vh;
+    
+}
+.input.country{
+    margin: 5px 0px;
+    border: 1px solid gainsboro;
+    width: 24vh;
+    height: 4.5vh;
+   
+    justify-content: center;
+}
+.full.zip {
+    height: 75%;
+    width: 70%;
+    border: none;
+    font-size: 2vh;
+    outline: 0;
+    
+}
+.input.zipcode{
+    margin: 5px 0px;
+    border: 1px solid gainsboro;
+    max-width: 30vh;
+    height: 4.5vh;
+   
+    justify-content: center;
+}
+i {
+    margin: 1vh;
+}
+
+.birlik{
+    display: flex;
+}
+.left{
+    margin-right: 5vh;
+}
+.ana-container{
+    display: flex;
+}
+.container-right{
+    margin-left: 6vh;
+    margin-top: 3vh;
+}
+.buton{
+    position: relative;
+    left: 45vh;
+    margin-top: 3vh;
+}
+.btn1{
+    width: 15vh;
+    height: 5vh;
+    border-radius: 12px;
+    background-color: orange;
+}
+.check{
+    margin-top: 2vh;
+}
