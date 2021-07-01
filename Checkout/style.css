@@ -8,15 +8,14 @@ h2{
 .ana-container{
     text-align: center;
     justify-content: center;
-    opacity: 0.7;
+    
 }
 .container-left{
     text-align: left;
-    display: inline;
+    /* display: inline; */
+    opacity: 0.7;
 }
-.container-right{
-    display: inline;
-}
+
 .input{
     margin: 5px 0px;
     border: 1px solid gainsboro;
@@ -42,7 +41,7 @@ h2{
     outline: 0;
     margin-left: 4vh;
     position: relative;
-    bottom: 3.5vh;
+    bottom: 4vh;
     
 }
 .input.country{
@@ -59,6 +58,8 @@ h2{
     border: none;
     font-size: 2vh;
     outline: 0;
+    position: relative;
+    bottom: 0.5vh;
     
 }
 .input.zipcode{
@@ -66,8 +67,17 @@ h2{
     border: 1px solid gainsboro;
     max-width: 30vh;
     height: 4.5vh;
-   
+    
     justify-content: center;
+}
+.full.adres{
+    height: 75%;
+    width: 80%;
+    border: none;
+    font-size: 2vh;
+    outline: 0;
+    position: relative;
+    bottom: 0.3vh;
 }
 i {
     margin: 1vh;
@@ -100,3 +110,83 @@ i {
 .check{
     margin-top: 2vh;
 }
+.container-right{
+    background-color: rgba(179, 184, 179, 0.5);
+    border-radius: 12px;
+    width: 50vh;
+    height: 65vh;
+}
+img {
+    margin: 2vh;
+    border-radius: 12px;
+}
+.img1,
+.img2{
+    display: flex;
+}
+.icons{
+    margin: 5px 0px;
+    border: 1px solid black;
+    height: 4.5vh;
+    border-radius: 8px;
+    justify-content: center;
+}
+.icons i {
+    margin: 1vh 2vh 1vh 2vh;
+    background-color: rgba(219, 217, 217, 0.6);
+    padding: 2px;
+    cursor: pointer;
+    
+}
+span {
+    font-size: 2.7vh;
+    color: orange;
+    margin-right: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
+.yazi{
+    margin: 2.5vh 1vh;
+}
+.yazilar{
+    margin-bottom: 5vh;
+    text-align: left;
+    font-weight: bold;
+    font-size: 2.4vh;
+    opacity: 0.8;
+}
+hr{
+    width: 90%;
+}
+.son{
+    text-align: left;
+    margin-left: 3vh;
+    font-weight: bold;
+    font-size: 2vh;
+    opacity: 0.8;
+    margin-top: 5vh;
+    margin-right: 3vh;
+    
+}
+.sonright{
+    margin-right: 5vh;
+    margin-top: 0;
+}
+.sonleft{
+    margin-top: 0;
+    
+}
+.shipping,
+.total{
+    display: flex;
+    margin: 0;
+    border-top: 1px solid gray;
+    justify-content: space-between;
+}
+@media only screen and (max-width:768px) {
+	
+    .ana-container {
+        display: block;
+    }
+    
+    }
