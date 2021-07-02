@@ -189,5 +189,9 @@ hr{
         display: block;
         margin-left: 5vh;
     }
+    h2{
+        text-align: left;
+        margin-left: 15vh;
+    }
     
     }
